@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/set_goal"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Set Goal" />
+        <item
+            android:id="@+id/track_food"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Track Food" />
+        <item
+            android:id="@+id/step_count"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Step Count" />
+        <item
+            android:id="@+id/fitness_center"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Fitness Centers" />
+
+    </group>
+
+    <item android:title="Other Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>
